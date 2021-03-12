@@ -1,0 +1,67 @@
+#sfondo {
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+
+#container {
+    width: 1250px;
+    height: 850px;
+    background-color: rgb(0, 0, 0, 0.6);
+    margin:auto;
+    margin-top: 30px;
+    border-radius: 2%;
+}
+
+.logo {
+    width: 250px;
+    height: 115px;
+    margin:auto;
+}
+
+header {
+    text-align: center;
+    color: rgb(81, 200, 2);
+    padding-top: 100px;
+    font-family:fantasy;
+}
+
+.navbar {
+    width: 1000px;
+    height: 50px;
+    background-color: rgb(81, 200, 2);
+    margin: auto;
+    text-align: center;
+    line-height: 50px
+}
+
+main {
+    width: 1000px;
+    height: 450px;
+    margin:auto;
+    color:white;
+    font-family:fantasy;
+}
+
+.batteria .mezza {
+    width: 300px;
+    height: 30px;
+    background-color:orange;
+    border-radius: 5px;
+}
+ .batteria .completa {
+    width: 600px;
+    height: 30px;
+    background-color:green;
+    border-radius: 5px;
+ }
+
+ .batteria .scarica {
+    width: 150px;
+    height: 30px;
+    background-color:red;
+    border-radius: 5px;
+ }
+
+.monopattino {
+    font-size: 25px;
+}
